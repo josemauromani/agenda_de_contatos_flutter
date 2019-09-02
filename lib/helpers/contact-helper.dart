@@ -12,14 +12,14 @@ class Contato {
   int id;
   String nome;
   String email;
-  String fone;
-  String foto;
+  String telefone;
+  String fotos;
 
   Contato.fromMap(Map map) {
     id = map[contato_id];
     nome = map[contato_nome];
     email = map[contato_email];
-    fone = map[contato_fone];
-    foto = map[contato_foto];
+    telefone = map[contato_fone];
+    fotos = map[contato_foto];
   }
 }
